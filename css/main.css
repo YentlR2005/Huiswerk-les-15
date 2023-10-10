@@ -1,0 +1,77 @@
+.body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: darkgrey;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+    background-color: blue;
+    border-radius: 100px;
+}
+
+li:hover {
+    background-color: lightblue;
+    border-style: none;
+}
+
+#mijncvtabel {
+    border-color: black;
+    border-radius: 20px;
+    border-style: ridge;
+    background-color: white;
+    width: 550px;
+    height: 300px;
+}
+
+th,
+td {
+    border: 1px solid;
+    border-radius: 15px;
+    border-style: ridge;
+    border-color: black;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+button {
+    display: block;
+    margin: 0px 0px;
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+button:active {
+    background-color: blue;
+}
+
+div,
+#Yentl {
+    border-radius: 20px;
+    text-align: center;
+}
+
+#contactgegevens {
+    height: 174px;
+}
