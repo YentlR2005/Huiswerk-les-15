@@ -76,3 +76,7 @@ div,
 #contactgegevens {
     height: 174px;
 }
+
+ul {
+    padding: 0;
+}
