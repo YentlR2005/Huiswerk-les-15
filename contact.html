@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- Voeg hier je eigen stylesheet toe -->
+</head>
+
+<body class="body">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mijncv.html">Mijncv</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <form id="persoonlijkegegevens" action="https://formspree.io/f/mjvqpnoj" method="POST">
+                <label for="voornaam">Voornaam:</label>
+                <input id="voornaam" type="text" placeholder="Uw voornaam" name="voornaam" /><br /><br />
+                <label for="achternaam">Achternaam:</label>
+                <input id="achternaam" type="text" placeholder="Uw achternaam" name="achternaam" /><br /><br />
+                <label for="e-mail">E-mail</label>
+                <input id="e-mail" type="email" placeholder="Uw e-mailadres" name="e-mail" /><br /><br />
+                <label for="contactgegevens">Bericht:</label>
+                <textarea id="contactgegevens" placeholder="Voer hier uw bericht in"></textarea>
+
+                <button>Verzend</button>
+            </form>
+        </div>
+        <!-- Voeg meer secties en inhoud toe zoals nodig -->
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Cursus Webdesign</p>
+    </footer>
+</body>
+
+</html>
